@@ -7,16 +7,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MovieManagerTest {
     MovieItem first = new MovieItem(1, "Iron Man", "fantasy", "11@yandex.com");
-    MovieItem second = new MovieItem(1, "Iron Man 2", "fantasy", "12@yandex.com");
-    MovieItem third = new MovieItem(1, "Iron Man 3", "fantasy", "13@yandex.com");
-    MovieItem fourth = new MovieItem(1, "Thor", "fantasy", "14@yandex.com");
-    MovieItem fifth = new MovieItem(1, "Captain America", "fantasy", "15@yandex.com");
-    MovieItem sixth = new MovieItem(1, "Doctor Strange", "fantasy", "16@yandex.com");
-    MovieItem seventh = new MovieItem(1, "Spider-Man", "fantasy", "17@yandex.com");
-    MovieItem eighth = new MovieItem(1, "Black Panther", "fantasy", "18@yandex.com");
-    MovieItem ninth = new MovieItem(1, "Logan", "action", "111@yandex.com");
-    MovieItem tenth = new MovieItem(1, "Sherlock Holmes", "action", "112@yandex.com");
-    MovieItem eleventh = new MovieItem(1, "The Da Vinci Code", "thriller", "119@yandex.com");
+    MovieItem second = new MovieItem(2, "Iron Man 2", "fantasy", "12@yandex.com");
+    MovieItem third = new MovieItem(3, "Iron Man 3", "fantasy", "13@yandex.com");
+    MovieItem fourth = new MovieItem(4, "Thor", "fantasy", "14@yandex.com");
+    MovieItem fifth = new MovieItem(5, "Captain America", "fantasy", "15@yandex.com");
+    MovieItem sixth = new MovieItem(6, "Doctor Strange", "fantasy", "16@yandex.com");
+    MovieItem seventh = new MovieItem(7, "Spider-Man", "fantasy", "17@yandex.com");
+    MovieItem eighth = new MovieItem(8, "Black Panther", "fantasy", "18@yandex.com");
+    MovieItem ninth = new MovieItem(9, "Logan", "action", "111@yandex.com");
+    MovieItem tenth = new MovieItem(10, "Sherlock Holmes", "action", "112@yandex.com");
+    MovieItem eleventh = new MovieItem(11, "The Da Vinci Code", "thriller", "119@yandex.com");
 
     @Test
     public void show0from0movies() {
